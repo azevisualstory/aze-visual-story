@@ -14,7 +14,7 @@
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Aze Visual Story | AI Artist & Filmmaker" />
   <meta property="og:description" content="I don’t generate. I direct. Explore selected cinematic brand campaign spec ads." />
-  <meta property="og:image" content="./aze-profile.png" />
+  <meta property="og:image" content="./pp aze.png" />
 
   <!-- Favicon: Yellow on Black SVG -->
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%230A0A0A'/><polygon points='50,18 82,82 66,82 50,48 34,82 18,82' fill='%23FFD400'/></svg>" />
@@ -43,9 +43,6 @@
           },
           fontFamily: {
             poppins: ['Poppins', 'sans-serif'],
-          },
-          letterSpacing: {
-            tightest: '-0.04em',
           }
         }
       }
@@ -92,7 +89,7 @@
     <div class="max-w-7xl mx-auto px-6 sm:px-8 h-20 flex items-center justify-between">
       
       <!-- Logo -->
-      <a href="#" class="font-extrabold tracking-widest text-base sm:text-lg text-white hover:text-brand-yellow transition-colors duration-200">
+      <a href="#" class="font-extrabold tracking-widest text-sm sm:text-base text-white hover:text-brand-yellow transition-colors duration-200 whitespace-nowrap">
         AZE VISUAL STORY
       </a>
 
@@ -128,23 +125,23 @@
 
 
   <!-- ================= HERO SECTION ================= -->
-  <section class="min-h-screen flex items-center justify-center pt-24 pb-16 px-6 sm:px-8 relative">
+  <section class="min-h-screen flex items-center justify-center pt-24 pb-16 px-4 sm:px-8 relative">
     <div class="absolute inset-0 bg-[radial-gradient(ellipse_60%_50%_at_50%_35%,rgba(255,212,0,0.06),rgba(10,10,10,0))] pointer-events-none"></div>
 
-    <div class="max-w-5xl mx-auto text-center z-10">
+    <div class="w-full max-w-5xl mx-auto text-center z-10">
       
-      <!-- Headline -->
-      <h1 class="reveal text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-black uppercase tracking-tightest leading-none mb-6">
-        AZE VISUAL<br class="hidden sm:inline" /> STORY
+      <!-- Headline: DIKUNCI 1 BARIS PENUH (whitespace-nowrap) -->
+      <h1 class="reveal text-2xl sm:text-5xl md:text-6xl lg:text-7xl font-black uppercase tracking-tight mb-6 whitespace-nowrap">
+        AZE VISUAL STORY
       </h1>
 
       <!-- Professions -->
-      <p class="reveal text-xs sm:text-sm md:text-base font-medium tracking-widest text-brand-yellow uppercase mb-6 sm:mb-8">
+      <p class="reveal text-[11px] sm:text-sm md:text-base font-medium tracking-widest text-brand-yellow uppercase mb-6 sm:mb-8">
         AI Artist &nbsp;|&nbsp; AI Filmmaker &nbsp;|&nbsp; Video Editor &nbsp;|&nbsp; Visual Storyteller
       </p>
 
       <!-- Tagline -->
-      <p class="reveal text-lg sm:text-2xl text-white/90 font-light max-w-2xl mx-auto mb-10 sm:mb-12 tracking-wide leading-relaxed">
+      <p class="reveal text-base sm:text-2xl text-white/90 font-light max-w-2xl mx-auto mb-10 sm:mb-12 tracking-wide leading-relaxed">
         I don’t generate. I direct.
       </p>
 
@@ -182,7 +179,6 @@
   <section id="works" class="py-24 sm:py-32 px-6 sm:px-8 border-t border-brand-border/40">
     <div class="max-w-7xl mx-auto">
       
-      <!-- Section Header (Clean, tanpa filter tabs sesuai permintaan) -->
       <div class="reveal mb-12 sm:mb-16">
         <span class="text-brand-yellow text-xs font-bold tracking-widest uppercase block mb-3">Portfolio</span>
         <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-4">
@@ -209,15 +205,14 @@
 
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 sm:gap-16 items-center">
         
-        <!-- Portrait Photo (aze-profile.png) -->
+        <!-- Portrait Photo: Mengarah ke file 'pp aze.png' di GitHub -->
         <div class="reveal lg:col-span-5 relative group">
           <div class="relative w-full aspect-[4/5] rounded-2xl overflow-hidden bg-brand-card border border-brand-border">
             <img 
-              src="./aze-profile.png" 
+              src="./pp aze.png" 
               alt="Aze Visual Story" 
               loading="lazy" 
               class="w-full h-full object-cover grayscale contrast-125 group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700"
-              onerror="this.src='https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=800&auto=format&fit=crop';" 
             />
             <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
             
@@ -257,14 +252,13 @@
   </section>
 
 
-  <!-- ================= CONTACT / GET IN TOUCH SECTION ================= -->
+  <!-- ================= CONTACT SECTION ================= -->
   <section id="contact" class="py-24 sm:py-32 px-6 sm:px-8 border-t border-brand-border/40 relative">
     <div class="max-w-4xl mx-auto text-center">
       
       <span class="reveal text-brand-yellow text-xs font-bold tracking-widest uppercase block mb-4">Get in Touch</span>
       
-      <!-- Headline Baru Sesuai Permintaan -->
-      <h2 class="reveal text-3xl sm:text-6xl font-black uppercase tracking-tightest leading-tight mb-8">
+      <h2 class="reveal text-3xl sm:text-6xl font-black uppercase tracking-tight leading-tight mb-8">
         Got a vision?<br />Let’s make it move.
       </h2>
       
@@ -331,12 +325,8 @@
 
   <!-- ================= JAVASCRIPT & DATA WORKS ================= -->
   <script>
-    /* 
-      PORTFOLIO WORKS DATA (BRAND CAMPAIGN & SPEC ADS)
-    */
     const WORKS_DATA = [
       {
-        brand: "EME STUDIOS",
         title: "EME STUDIOS — SPEC AD",
         category: "Brand Campaign",
         type: "Spec Ad",
@@ -345,7 +335,6 @@
         cover: "./eme-studios-ai-visuals-video-editing.png"
       },
       {
-        brand: "MAHARISHI",
         title: "MAHARISHI — SPEC AD",
         category: "Brand Campaign",
         type: "Spec Ad",
@@ -354,7 +343,6 @@
         cover: "./maharishi-ai-visuals-video-editing.png"
       },
       {
-        brand: "PUMA",
         title: "PUMA — SPEC AD",
         category: "Brand Campaign",
         type: "Spec Ad",
@@ -363,7 +351,6 @@
         cover: "./puma-ai-visuals-video-editing.png"
       },
       {
-        brand: "METRA",
         title: "METRA — SPEC AD",
         category: "Brand Campaign",
         type: "Spec Ad",
@@ -372,7 +359,6 @@
         cover: "./metra-ai-visuals-video-editing.png"
       },
       {
-        brand: "PALACE",
         title: "PALACE — SPEC AD",
         category: "Brand Campaign",
         type: "Spec Ad",
@@ -381,7 +367,6 @@
         cover: "./palace-ai-visuals-video-editing.png"
       },
       {
-        brand: "COLD CULTURE",
         title: "COLD CULTURE — SPEC AD",
         category: "Brand Campaign",
         type: "Spec Ad",
@@ -402,26 +387,22 @@
           rel="noopener noreferrer" 
           class="group block bg-brand-card border border-brand-border rounded-xl overflow-hidden hover:border-brand-yellow/70 transition-all duration-300 transform hover:-translate-y-1.5 hover:shadow-[0_10px_30px_rgba(255,212,0,0.12)]"
         >
-          <!-- Cover Image Container -->
           <div class="relative w-full aspect-[4/5] sm:aspect-square overflow-hidden bg-black">
             <img 
               src="${work.cover}" 
               alt="${work.title}" 
               loading="lazy" 
               class="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700 ease-out"
-              onerror="this.src='https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=900&auto=format&fit=crop';"
             />
             
             <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-80 group-hover:opacity-50 transition-opacity duration-300"></div>
 
-            <!-- Platform Tag Top Right -->
             <div class="absolute top-4 right-4 bg-black/75 backdrop-blur-md border border-white/10 px-2.5 py-1 rounded text-[10px] font-semibold uppercase tracking-wider text-white flex items-center space-x-1.5">
               <span>${work.platform}</span>
               <span class="text-brand-yellow text-[11px]">↗</span>
             </div>
           </div>
 
-          <!-- Card Meta -->
           <div class="p-5 flex items-center justify-between">
             <div>
               <span class="text-[10px] font-bold uppercase tracking-widest text-brand-yellow block mb-1">
@@ -439,7 +420,6 @@
       `).join("");
     }
 
-    // Scroll Reveal Observer
     const revealObserver = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
@@ -450,7 +430,6 @@
 
     document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
 
-    // Initialize
     renderWorks();
   </script>
 </body>
