@@ -8,7 +8,7 @@
   <title>Aze Visual Story | AI Artist & Filmmaker</title>
   <meta name="description" content="Portfolio of Aze Visual Story — AI Artist, AI Filmmaker, Video Editor, and Visual Storyteller. I don’t generate. I direct." />
   <meta name="author" content="Aze Visual Story" />
-  <meta name="theme-color" content="#130DE9" />
+  <meta name="theme-color" content="#0A0A0A" />
 
   <!-- Open Graph / Link Previews -->
   <meta property="og:type" content="website" />
@@ -17,7 +17,7 @@
   <meta property="og:image" content="./aze-profile.png" />
 
   <!-- Favicon -->
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%23130DE9'/><polygon points='50,18 82,82 66,82 50,48 34,82 18,82' fill='%23FFFFFF'/></svg>" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%230A0A0A'/><polygon points='50,18 82,82 66,82 50,48 34,82 18,82' fill='%23130DE9'/></svg>" />
 
   <!-- Google Font: Poppins -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -35,6 +35,7 @@
               blue: '#130DE9',
               blueDark: '#0D08A0',
               blueLight: '#E8E7FD',
+              cardDark: '#0A0A0A',
             }
           },
           fontFamily: {
@@ -65,7 +66,7 @@
       width: 7px;
     }
     ::-webkit-scrollbar-track {
-      background: #FFFFFF;
+      background: #0A0A0A;
     }
     ::-webkit-scrollbar-thumb {
       background: #130DE9;
@@ -76,7 +77,7 @@
 <body class="selection:bg-[#130DE9] selection:text-white">
 
   <!-- ================= HEADER / NAVIGATION ================= -->
-  <header class="fixed top-0 left-0 w-full z-50 bg-black/70 backdrop-blur-md border-b border-white/10 transition-all duration-300">
+  <header class="fixed top-0 left-0 w-full z-50 bg-black/75 backdrop-blur-md border-b border-white/10 transition-all duration-300">
     <div class="max-w-7xl mx-auto px-6 sm:px-8 h-20 flex items-center justify-between">
       
       <!-- Logo -->
@@ -118,7 +119,6 @@
   <!-- ================= HERO SECTION (BANNER ASLI TANPA FILTER WARNA) ================= -->
   <section class="min-h-screen flex items-center justify-center pt-24 pb-16 px-4 sm:px-8 relative overflow-hidden bg-black">
     
-    <!-- Banner Murni Asli (Hanya bayangan gelap netral untuk keterbacaan teks) -->
     <div class="absolute inset-0 z-0">
       <img 
         src="./aze-ai-visual-creator-video-editor-hero-banner.png" 
@@ -126,7 +126,7 @@
         class="w-full h-full object-cover object-center brightness-90"
         onerror="this.style.display='none'"
       />
-      <!-- Bayangan Netral (Tanpa warna biru/kuning sama sekali) -->
+      <!-- Bayangan Netral (Tanpa warna biru/kuning) -->
       <div class="absolute inset-0 bg-black/45"></div>
       <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-transparent to-black/60"></div>
     </div>
@@ -179,7 +179,7 @@
   </section>
 
 
-  <!-- ================= 1. SECTION WORKS: BIRU (#130DE9) ================= -->
+  <!-- ================= 1. SECTION WORKS: BIRU (#130DE9) DENGAN CARD HITAM ================= -->
   <section id="works" class="py-24 sm:py-32 px-6 sm:px-8 bg-[#130DE9] text-white">
     <div class="max-w-7xl mx-auto">
       
@@ -191,7 +191,7 @@
         </div>
       </div>
 
-      <!-- Works Grid: Card Putih Kontras Tinggi di atas background Biru -->
+      <!-- Works Grid: Card Hitam (#0A0A0A) & Teks Putih -->
       <div id="worksGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
         <!-- Rendered by JavaScript -->
       </div>
@@ -243,7 +243,7 @@
             With a background in video editing, motion graphics, videography, and graphic design, I bridge AI technology with professional visual production to create work with a strong identity and impact.
           </p>
 
-          <!-- Skill Sesuai Permintaan Persis -->
+          <!-- Skill Footer -->
           <div class="pt-6 border-t border-gray-200 flex flex-wrap gap-2 text-[11px] font-semibold tracking-wider text-gray-900">
             <span class="px-4 py-2 bg-gray-50 border border-gray-300 rounded-full hover:border-[#130DE9] hover:text-[#130DE9] transition-all">Video Editing</span>
             <span class="px-4 py-2 bg-gray-50 border border-gray-300 rounded-full hover:border-[#130DE9] hover:text-[#130DE9] transition-all">AI Visual Generation</span>
@@ -258,17 +258,17 @@
   </section>
 
 
-  <!-- ================= 3. SECTION CONTACT: BIRU (#130DE9) ================= -->
-  <section id="contact" class="py-24 sm:py-32 px-6 sm:px-8 bg-[#130DE9] text-white text-center">
+  <!-- ================= 3. SECTION CONTACT: HITAM (#0A0A0A) & TEKS PUTIH ================= -->
+  <section id="contact" class="py-24 sm:py-32 px-6 sm:px-8 bg-[#0A0A0A] text-white text-center border-t border-white/10">
     <div class="max-w-4xl mx-auto">
       
-      <span class="reveal text-white/70 text-xs font-bold tracking-widest uppercase block mb-4">Get in Touch</span>
+      <span class="reveal text-[#514DFF] text-xs font-bold tracking-widest uppercase block mb-4">Get in Touch</span>
       
       <h2 class="reveal text-3xl sm:text-6xl font-black uppercase tracking-tight leading-tight mb-8 text-white">
         Got a vision?<br />Let’s make it move.
       </h2>
       
-      <p class="reveal text-white/80 text-sm sm:text-base font-light max-w-xl mx-auto mb-12">
+      <p class="reveal text-white/70 text-sm sm:text-base font-light max-w-xl mx-auto mb-12">
         Available for brand campaigns, cinematic AI direction, spec commercial ads, short films, and high-impact visual storytelling.
       </p>
 
@@ -278,7 +278,7 @@
           href="https://wa.me/6282125903004" 
           target="_blank" 
           rel="noopener noreferrer"
-          class="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 bg-white text-[#130DE9] font-bold text-xs uppercase tracking-widest rounded-full hover:bg-white/90 hover:scale-[1.02] transition-all duration-200 shadow-[0_6px_30px_rgba(0,0,0,0.35)]"
+          class="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 bg-[#130DE9] text-white font-bold text-xs uppercase tracking-widest rounded-full hover:bg-blue-700 hover:scale-[1.02] transition-all duration-200 shadow-[0_4px_30px_rgba(19,13,233,0.4)]"
         >
           <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 24 24">
             <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/>
@@ -288,7 +288,7 @@
 
         <a 
           href="mailto:dzikrifachrizal@gmail.com" 
-          class="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 border border-white/40 bg-white/10 backdrop-blur-sm text-white font-semibold text-xs uppercase tracking-widest rounded-full hover:bg-white hover:text-[#130DE9] transition-all duration-200 shadow-sm"
+          class="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 border border-white/20 bg-white/5 backdrop-blur-sm text-white font-semibold text-xs uppercase tracking-widest rounded-full hover:border-[#130DE9] hover:bg-white/10 transition-all duration-200 shadow-sm"
         >
           <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
@@ -297,21 +297,25 @@
         </a>
       </div>
 
-      <!-- Social Channels -->
-      <div class="reveal pt-10 border-t border-white/20">
-        <p class="text-[11px] font-semibold tracking-widest uppercase text-white/70 mb-6">Direct Social Channels</p>
+      <!-- Social Channels (Termasuk Behance) -->
+      <div class="reveal pt-10 border-t border-white/15">
+        <p class="text-[11px] font-semibold tracking-widest uppercase text-white/50 mb-6">Direct Social Channels</p>
         <div class="flex flex-wrap justify-center gap-6 sm:gap-10 text-xs font-semibold uppercase tracking-wider">
-          <a href="https://www.instagram.com/azevisualstory_/" target="_blank" rel="noopener noreferrer" class="text-white hover:underline transition-colors duration-200 flex items-center space-x-1.5">
+          <a href="https://www.behance.net/dzikrifachrizal" target="_blank" rel="noopener noreferrer" class="text-white hover:text-[#514DFF] transition-colors duration-200 flex items-center space-x-1.5">
+            <span>Behance</span>
+            <span class="text-[#514DFF] text-[10px]">↗</span>
+          </a>
+          <a href="https://www.instagram.com/azevisualstory_/" target="_blank" rel="noopener noreferrer" class="text-white hover:text-[#514DFF] transition-colors duration-200 flex items-center space-x-1.5">
             <span>Instagram</span>
-            <span class="text-white/70 text-[10px]">↗</span>
+            <span class="text-[#514DFF] text-[10px]">↗</span>
           </a>
-          <a href="https://www.tiktok.com/@azevisualstory_" target="_blank" rel="noopener noreferrer" class="text-white hover:underline transition-colors duration-200 flex items-center space-x-1.5">
+          <a href="https://www.tiktok.com/@azevisualstory_" target="_blank" rel="noopener noreferrer" class="text-white hover:text-[#514DFF] transition-colors duration-200 flex items-center space-x-1.5">
             <span>TikTok</span>
-            <span class="text-white/70 text-[10px]">↗</span>
+            <span class="text-[#514DFF] text-[10px]">↗</span>
           </a>
-          <a href="https://www.youtube.com/@azevisualstory" target="_blank" rel="noopener noreferrer" class="text-white hover:underline transition-colors duration-200 flex items-center space-x-1.5">
+          <a href="https://www.youtube.com/@azevisualstory" target="_blank" rel="noopener noreferrer" class="text-white hover:text-[#514DFF] transition-colors duration-200 flex items-center space-x-1.5">
             <span>YouTube</span>
-            <span class="text-white/70 text-[10px]">↗</span>
+            <span class="text-[#514DFF] text-[10px]">↗</span>
           </a>
         </div>
       </div>
@@ -320,10 +324,10 @@
   </section>
 
 
-  <!-- ================= 4. SECTION FOOTER: PUTIH (#FFFFFF) ================= -->
-  <footer class="py-10 px-6 sm:px-8 border-t border-gray-200 text-center text-xs font-light text-gray-500 bg-white">
+  <!-- ================= 4. SECTION FOOTER: HITAM (#0A0A0A) ================= -->
+  <footer class="py-10 px-6 sm:px-8 border-t border-white/10 text-center text-xs font-light text-white/40 bg-[#0A0A0A]">
     <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
-      <p class="tracking-wider text-gray-800 font-medium">AZE VISUAL STORY &bull; INDONESIA</p>
+      <p class="tracking-wider text-white/70 font-medium">AZE VISUAL STORY &bull; INDONESIA</p>
       <p class="tracking-wider">&copy; 2026 Aze Visual Story. All rights reserved.</p>
     </div>
   </footer>
@@ -441,9 +445,9 @@
           href="${work.link}" 
           target="_blank" 
           rel="noopener noreferrer" 
-          class="group block bg-white text-gray-900 rounded-xl overflow-hidden shadow-md hover:shadow-2xl hover:scale-[1.02] transition-all duration-300 transform"
+          class="group block bg-[#0A0A0A] border border-white/10 text-white rounded-xl overflow-hidden hover:border-white/50 transition-all duration-300 transform hover:-translate-y-1.5 hover:shadow-[0_16px_35px_rgba(0,0,0,0.5)]"
         >
-          <div class="relative w-full aspect-[4/5] sm:aspect-square overflow-hidden bg-gray-100">
+          <div class="relative w-full aspect-[4/5] sm:aspect-square overflow-hidden bg-black">
             <img 
               src="${work.cover}" 
               alt="${work.title}" 
@@ -451,24 +455,24 @@
               class="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700 ease-out"
             />
             
-            <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-60 group-hover:opacity-30 transition-opacity duration-300"></div>
+            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-70 group-hover:opacity-40 transition-opacity duration-300"></div>
 
-            <div class="absolute top-4 right-4 bg-[#130DE9] text-white px-2.5 py-1 rounded text-[10px] font-bold uppercase tracking-wider flex items-center space-x-1.5 shadow">
+            <div class="absolute top-4 right-4 bg-black/80 backdrop-blur-md border border-white/20 px-2.5 py-1 rounded text-[10px] font-bold uppercase tracking-wider text-white flex items-center space-x-1.5 shadow">
               <span>${work.platform}</span>
-              <span class="text-[11px]">↗</span>
+              <span class="text-[#514DFF] text-[11px]">↗</span>
             </div>
           </div>
 
           <div class="p-5 flex items-center justify-between">
             <div>
-              <span class="text-[10px] font-bold uppercase tracking-widest text-[#130DE9] block mb-1">
+              <span class="text-[10px] font-bold uppercase tracking-widest text-[#514DFF] block mb-1">
                 ${work.category} &bull; ${work.type}
               </span>
-              <h3 class="text-base sm:text-lg font-bold tracking-tight text-gray-900 uppercase group-hover:text-[#130DE9] transition-colors duration-200">
+              <h3 class="text-base sm:text-lg font-bold tracking-tight text-white uppercase group-hover:text-white/80 transition-colors duration-200">
                 ${work.title}
               </h3>
             </div>
-            <div class="w-8 h-8 rounded-full border border-gray-300 flex items-center justify-center text-gray-400 group-hover:border-[#130DE9] group-hover:bg-[#130DE9] group-hover:text-white transition-all duration-200">
+            <div class="w-8 h-8 rounded-full border border-white/20 flex items-center justify-center text-white/50 group-hover:border-white group-hover:bg-white group-hover:text-[#0A0A0A] group-hover:translate-x-1 transition-all duration-200">
               <span class="text-xs">→</span>
             </div>
           </div>
